@@ -5,7 +5,7 @@ import com.example.gouveiarocha.estudoskotlin.Livro_KotlinEmAcao.cap2_basico.Col
 
 /**
  * Classes enum e Expressão 'when'
- * Pag. 59 a
+ * Pag. 59 a 63
  */
 
 private fun main() {
@@ -17,6 +17,7 @@ private fun main() {
     println(getWarmth(RED))
 
     println(mix(BLUE, YELLOW))
+    println(mixOptimized(BLUE, YELLOW))
 
 }
 
@@ -65,4 +66,14 @@ private fun mix(c1: Colors, c2: Colors) =
         else -> throw Exception("Dirty color...")
     }
 
-//Usando 'when' sem argumentos
+//-Usando 'when' sem argumentos - podemos usar essa opção em substituição a fun mix, aqui, vamos evitar que o kotlin crie
+//e mantenha diversos instancias se Set somente para verificar se duas cores são iguais as outras duas. O código será menos
+//legivel, mas é o preço que se paga para ter melhor desempenho.
+private fun mixOptimized(c1: Colors, c2: Colors) =
+    when {
+        (c1 == RED && c2 == YELLOW) || (c1 == YELLOW && c2 == RED) -> ORANGE
+        (c1 == YELLOW && c2 == BLUE) || (c1 == BLUE && c2 == YELLOW) -> GREEN
+        (c1 == BLUE && c2 == VIOLET) || (c1 == VIOLET && c2 == BLUE) -> INDIGO
+        else -> throw Exception("Dirty color...")
+    }
+
