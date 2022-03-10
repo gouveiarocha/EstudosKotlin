@@ -1,4 +1,4 @@
-package POO.model;
+package POO.EstudoDeCaso.model;
 
 public class ContaCorrente {
     private String nomeCliente;

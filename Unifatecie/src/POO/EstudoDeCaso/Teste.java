@@ -1,6 +1,6 @@
-package POO;
+package POO.EstudoDeCaso;
 
-import POO.model.ContaCorrente;
+import POO.EstudoDeCaso.model.ContaCorrente;
 
 public class Teste {
 
