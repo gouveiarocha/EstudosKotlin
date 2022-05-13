@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Alura_FormacaoKoltin/Alura_FormacaoKoltin.iml" filepath="$PROJECT_DIR$/Alura_FormacaoKoltin/Alura_FormacaoKoltin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Alura_FormacaoKoltin_Bytebank/Alura_FormacaoKoltin_Bytebank.iml" filepath="$PROJECT_DIR$/Alura_FormacaoKoltin_Bytebank/Alura_FormacaoKoltin_Bytebank.iml" />
       <module fileurl="file://$PROJECT_DIR$/Beecrownd/Beecrownd.iml" filepath="$PROJECT_DIR$/Beecrownd/Beecrownd.iml" />
       <module fileurl="file://$PROJECT_DIR$/Curso_DevDojo_MaratonaJava/Curso_DevDojo_MaratonaJava.iml" filepath="$PROJECT_DIR$/Curso_DevDojo_MaratonaJava/Curso_DevDojo_MaratonaJava.iml" />
       <module fileurl="file://$PROJECT_DIR$/Livro_KotlinEmAcao/Livro_KotlinEmAcao.iml" filepath="$PROJECT_DIR$/Livro_KotlinEmAcao/Livro_KotlinEmAcao.iml" />
