@@ -1,3 +1,6 @@
+import Bytebank.modelo.ContaCorrente
+import Bytebank.modelo.ContaPoupanca
+
 fun testaContasDiferentes() {
     val contaCorrente = ContaCorrente(
         titular = "Alex",

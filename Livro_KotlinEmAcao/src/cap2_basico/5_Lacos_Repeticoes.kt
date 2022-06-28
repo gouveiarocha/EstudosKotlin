@@ -4,7 +4,7 @@ import java.util.*
 
 /**
  * Laços de repetição.
- * Pag. 69 a
+ * Pag. 69 a 75
  */
 
 fun main() {

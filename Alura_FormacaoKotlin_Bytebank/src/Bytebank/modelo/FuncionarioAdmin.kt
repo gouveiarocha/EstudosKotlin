@@ -1,3 +1,5 @@
+package Bytebank.modelo
+
 abstract class FuncionarioAdmin(
     nome: String,
     cpf: String,

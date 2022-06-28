@@ -1,3 +1,5 @@
+package Bytebank.modelo
+
 class Analista(
     nome: String,
     cpf: String,

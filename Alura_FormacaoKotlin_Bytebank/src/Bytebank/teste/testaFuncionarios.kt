@@ -1,3 +1,8 @@
+import Bytebank.modelo.Analista
+import Bytebank.modelo.CalculadoraBonificacao
+import Bytebank.modelo.Diretor
+import Bytebank.modelo.Gerente
+
 fun testaFuncionarios() {
     val alex = Analista(
         nome = "Alex",

@@ -1,3 +1,5 @@
+package Bytebank.modelo
+
 class ContaPoupanca(
     titular: String,
     numero: Int

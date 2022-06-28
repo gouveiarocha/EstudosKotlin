@@ -1,3 +1,5 @@
+package Bytebank.modelo
+
 class ContaCorrente(
     titular: String,
     numero: Int

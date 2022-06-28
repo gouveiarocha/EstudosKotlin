@@ -1,3 +1,5 @@
+package Bytebank.modelo
+
 class Auxiliar(
     nome: String,
     cpf: String,

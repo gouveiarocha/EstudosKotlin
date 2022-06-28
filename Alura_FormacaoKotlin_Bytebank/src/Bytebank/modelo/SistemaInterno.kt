@@ -1,3 +1,7 @@
+package Bytebank.modelo
+
+import Bytebank.modelo.Autenticavel
+
 class SistemaInterno {
 
     fun entra(admin: Autenticavel, senha: Int){

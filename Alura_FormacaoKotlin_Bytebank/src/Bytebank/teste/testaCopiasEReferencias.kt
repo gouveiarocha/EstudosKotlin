@@ -1,3 +1,6 @@
+import Bytebank.modelo.ContaCorrente
+import Bytebank.modelo.ContaPoupanca
+
 fun testaCopiasEReferencias() {
     val numeroX = 10
     var numeroY = numeroX
