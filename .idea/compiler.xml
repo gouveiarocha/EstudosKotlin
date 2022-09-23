@@ -6,8 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Udemy_Curso_CleanCode" />
-        <module name="Udemy_Curso_TestesUnitariosJava" />
+        <module name="Curso_Udemy_CleanCode" />
+        <module name="Curso_Udemy_TestesUnitariosJava" />
       </profile>
     </annotationProcessing>
   </component>
